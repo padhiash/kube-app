@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: vproapp-service
-  spec:
+spec:
     ports:
       - port: 80
         targetPort: vproapp-port
